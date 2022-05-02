@@ -7,6 +7,22 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'myThirdAngular';
+ 
+  // constructor(){
+  //   let request=new XMLHttpRequest();
+  //   request.open("GET","https://624d2af5d71863d7a8143760.mockapi.io/PricePage");
+  //   request.send();
+  //   request.onload=()=>{
+  //       let jsonString=request.responseText;
+  //       let priceCardList=JSON.parse(jsonString);
+  //       console.log(priceCardList);
+  //       for(let i=0;i<priceCardList.length;i++)
+  //       {
+  //           console.log(priceCardList[i].name);
+  //       }
+  //   };
+  // } 
+
   priceCardList=[
     {
       id:"1",
@@ -50,7 +66,7 @@ export class AppComponent {
       name:"Plus",
       features:[
         {
-          title:"5 User"
+          title:"𝟱 𝗨𝘀𝗲𝗿𝘀"
         },
         {
           title:"50GB Storage"
@@ -84,7 +100,7 @@ export class AppComponent {
       name:"pro",
       features:[
         {
-          title:"Unlimited Users"
+          title:"𝗨𝗻𝗹𝗶𝗺𝗶𝘁𝗲𝗱 𝗨𝘀𝗲𝗿𝘀"
         },
         {
           title:"150GB Storage"
@@ -102,7 +118,7 @@ export class AppComponent {
           title:"Dedicated Phone Support"
         },
         {
-          title:"Unlimited Free Subdomains"
+          title:"𝗨𝗻𝗹𝗶𝗺𝗶𝘁𝗲𝗱 Free Subdomains"
         },
         {
           title:"Monthly Status Reports"

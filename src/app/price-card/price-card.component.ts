@@ -16,4 +16,8 @@ export class PriceCardComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  doAction(name:string){
+    alert(`${name.toUpperCase()} Membership Selected`)
+  }
+
 }
